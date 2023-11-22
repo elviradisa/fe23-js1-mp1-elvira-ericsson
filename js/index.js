@@ -4,7 +4,7 @@ for (let i = 0; i < 5; i++) {
     h1.innerText = i+1;
     const hue = 100 + i*20;
     h1.style.backgroundColor = `hsl(${hue}, 50%, 80%)`
-    h1.style.color = 'purple';
+    h1.style.color = 'lightblue';
     h1.style.textAlign = 'center';
     h1.style.fontSize = `calc(16px + ${i * 10}%)`;
 }
@@ -26,3 +26,7 @@ for (let i = 1; i <= 3; i++) {
 
     innerDiv.style.backgroundColor = 'purple';
 }
+
+//const first = [0, 1, 2, 3..]
+//const second = [9, 8, 7..]
+//const third = ['ett', 'två',...]
